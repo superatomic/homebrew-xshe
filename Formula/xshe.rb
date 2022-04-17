@@ -5,7 +5,7 @@ class Xshe < Formula
   desc "Set Shell Environment variables across multiple shells with a single configuration file."
   homepage "https://github.com/superatomic/xshe"
   license any_of: ["MIT", "Apache-2.0"]
-  head "https://github.com/superatomic/xshe.git"
+  head "https://github.com/superatomic/xshe.git", branch: "main"
 
   depends_on "rust" => :build
 
