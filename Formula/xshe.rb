@@ -5,6 +5,7 @@ class Xshe < Formula
   license any_of: ["MIT", "Apache-2.0"]
   url "https://github.com/superatomic/xshe/archive/v#{version}.zip"
   sha256 "bae941c2a6bd1e5489dacf8a4c2892f347597e4143b50e1c2781338bf31d8e92"
+  head "https://github.com/superatomic/xshe.git", branch: "main"
 
   depends_on "rust" => :build
 
