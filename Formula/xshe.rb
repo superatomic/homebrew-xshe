@@ -1,5 +1,5 @@
 class Xshe < Formula
-  version '0.4.0'
+  version '0.4.1'
   desc "Set Shell Environment variables across multiple shells with a single configuration file."
   homepage "https://github.com/superatomic/xshe"
   license any_of: ["MIT", "Apache-2.0"]
