@@ -11,8 +11,12 @@ class Xshe < Formula
 
   def install
     system "cargo", "install", *std_cargo_args
+
     out_dir = Dir["target/release/build/xshe-*/out"].first
     man1.install "#{out_dir}/xshe.1"
+    bash_completion.install "#{out_dir}/xshe.bash"
+    zsh_completion.install "#{out_dir}/_xshe"
+    fish_completion.install "#{out_dir}/xshe.fish"
   end
 
   test do
