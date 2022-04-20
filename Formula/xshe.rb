@@ -1,10 +1,10 @@
 class Xshe < Formula
-  version '0.4.1'
+  version '0.4.2'
   desc "Set Shell Environment variables across multiple shells with a single configuration file."
   homepage "https://github.com/superatomic/xshe"
   license any_of: ["MIT", "Apache-2.0"]
   url "https://github.com/superatomic/xshe/archive/v#{version}.zip"
-  sha256 "e2bccfc8252cae0b175aa48361796b6db79591edf89d8abc38961b782be6abfc"
+  sha256 "26c92a7c5644000a5951764cffb0ee3bdf3954fc3308ced05902a70015ebf210"
   head "https://github.com/superatomic/xshe.git", branch: "main"
 
   depends_on "rust" => :build
