@@ -1,10 +1,10 @@
 class Xshe < Formula
-  version '0.5.0'
+  version '0.5.1'
   desc "Cross-Shell Environment Variables Manager"
   homepage "https://github.com/superatomic/xshe"
   license any_of: ["MIT", "Apache-2.0"]
   url "https://github.com/superatomic/xshe/archive/v#{version}.zip"
-  sha256 "6a86e4a62650269b0ec37bd47949233957ed8899430f5ba876fae378eedeb342"
+  sha256 "76b535ef24b07630556e75530549fa9caedcaa0144981b10ea338dcf15d8a2dd"
   head "https://github.com/superatomic/xshe.git", branch: "main"
   
   depends_on "rust" => :build
